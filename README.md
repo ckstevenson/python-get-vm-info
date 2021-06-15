@@ -12,3 +12,4 @@ Inspiration was take from https://github.com/vmware/pyvmomi-community-samples
 - [ ] Better string sanitization when performing an ldap lookup
 - [ ] Add config file functionality
 - [ ] Option for writing csv file to stdout to pipe to non-default location
+- [ ] Correct argument requirements, e.g., LDAP info only needed when pulling all VM info

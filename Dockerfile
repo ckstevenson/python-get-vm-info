@@ -1,5 +1,5 @@
 # set base image (host OS)
-FROM python:3.10.0b2-alpine3.13
+FROM python:3.9.7-alpine3.14
 
 # set the working directory in the container
 WORKDIR /usr/src/
@@ -12,4 +12,4 @@ RUN apk add build-base openldap-dev
 RUN pip install --no-cache-dir -r requirements.txt
 
 # copy the content of the local src directory to the working directory
-COPY src/
+COPY src/ .

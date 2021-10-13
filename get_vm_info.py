@@ -21,7 +21,7 @@ from pyVmomi import vim
 
 # This script isn't a module, but I like the use of the following metadata
 __author__ = "Cameron Stevenson"
-__license__ = "Apache License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0"
+__license__ = "MIT License"
 __version__ = "0.2.1"
 __maintainer__ = "Cameron Stevenson (GitHub: ckstevenson)"
 __email__ = "cksteve@protonmail.com"

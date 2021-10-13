@@ -29,8 +29,8 @@ __email__ = "cksteve@protonmail.com"
 # Array for VMs
 vms = []
 
-path = '/tmp/inventory/'
-#path = './inventory/'
+#path = '/tmp/inventory/'
+path = './inventory/'
 if not os.path.exists(path):
     os.makedirs(path)
 

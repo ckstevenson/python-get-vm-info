@@ -14,6 +14,7 @@ docker run -it get\_vm\_info /usr/src/get\_vm\_info.py -u xyz -p xyz --ldap-user
 
 ## Todo
 - [X] SMTP email and username
+- [ ] Use threads to improve performance
 - [ ] Better string sanitization when performing an ldap lookup
 - [ ] Add config file functionality
 - [ ] Option for writing csv file to stdout to pipe to non-default location
